@@ -1,7 +1,7 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: pvc-test
+  name: {{ .Values.volumes.claimName }}
 spec:
   storageClassName: nfs
   volumeMode: Filesystem
