@@ -60,7 +60,7 @@ ingress:
   hosts:
     - host: mywebsite.com
       paths:
-        - path: /
+        - path: /weather
           pathType: Prefix
   tls: []
   #  - secretName: chart-example-tls
