@@ -15,7 +15,7 @@ volumeMounts:
 
 volumes:
   name: myvolume
-  claimName: pvc-test  
+  claimName: weather-pvc  
 
 nfs:
   ip: 3.76.55.224
