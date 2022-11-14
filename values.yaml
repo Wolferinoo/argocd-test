@@ -8,7 +8,7 @@ image:
   repository: dogerino/weathersite
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "test"
 
 volumeMounts:
   mountPath: /weathersite/static/history
